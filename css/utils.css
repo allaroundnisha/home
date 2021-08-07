@@ -1,0 +1,104 @@
+
+.logo{
+    filter: invert(100%);
+    padding-top: 25px;
+}
+.dark-text{
+color: white;
+}
+.dark-img{
+    filter: invert(100%);
+}
+.animated {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  .animated.faster {
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+  }
+
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+
+  .fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }
+  .macs{
+   font-size: 80px;
+  }
+
+  @media only screen and (max-width: 500px){
+    .macs{
+      font-size: 50px;
+     
+     }
+  }
+ .articles{
+   padding-left: 45px;
+   padding-top: 50px;
+ }
+ .code-copy{
+   background-color: rgb(194, 192, 192);
+   width: auto;
+   padding:20px;
+   border-radius: 10px;
+   color: black;
+   overflow: hidden;
+   font-size: medium;
+   margin-top: 25px;
+   margin-bottom: 25px;
+  }
+  input:focus{
+    outline: none;
+  }
+  .clipboard-btn{
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+
+  }
+ button:focus{
+   outline: none;
+ }
+ .swal-modal {
+   background-color:#111827;
+ }
+.swal-button{
+  background-color: white;
+  color: black;
+  outline: none;
+}
+.swal-text{
+  color: white;
+  font-size: xx-large;
+  padding-top: 50px;
+}
+
